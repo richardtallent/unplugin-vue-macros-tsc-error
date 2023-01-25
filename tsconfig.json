@@ -1,0 +1,12 @@
+{
+	"compilerOptions": {
+		"lib": ["esnext", "dom", "dom.iterable"],
+		"module": "esnext",
+		"target": "esnext",
+		"types": ["unplugin-vue-macros/macros-global", "vite/client"]
+	},
+	"include": ["src/**/*.vue", "*.d.ts"],
+	"vueCompilerOptions": {
+		"plugins": ["@vue-macros/volar/better-define"]
+	}
+}

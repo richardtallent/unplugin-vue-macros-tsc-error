@@ -1,0 +1,30 @@
+{
+	"name": "unplugin-vue-macros-tsc-error",
+	"version": "1.0.0",
+	"private": true,
+	"description": "TSC error example",
+	"author": "Richard Tallent",
+	"scripts": {
+		"dev": "vite",
+		"devuncache": "vite --force",
+		"build": "vite build",
+		"tsc": "vue-tsc --noEmit --skipLibCheck"
+	},
+	"dependencies": {
+		"vue-router": "^4.1.6",
+		"vue": "^3.2.45"
+	},
+	"devDependencies": {
+		"vue-tsc": "^1.0.24",
+		"@types/node": "^18.11.18",
+		"@vitejs/plugin-vue": "^4.0.0",
+		"@vue-macros/volar": "^0.6.2",
+		"@vue/compiler-sfc": "^3.2.45",
+		"typescript": "^4.9.4",
+		"unplugin-vue-macros": "^1.5.3",
+		"vite": "^4.0.4"
+	},
+	"keywords": [],
+	"license": "UNLICENSED",
+	"repository": "https://dev.azure.com/erm-globalbusinesses-digitalservices/Themis/_git/erm-themis-ui"
+}
